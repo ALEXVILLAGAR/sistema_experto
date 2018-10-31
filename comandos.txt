@@ -1,0 +1,21 @@
+SUBIR PROYECTO
+1. git add .
+2. git commit -m "Commit message"
+3. git push origin rama
+
+BAJAR PROYECTO (DEL REPOSITORIO DEL COMPAÑERO)
+
+1. Crear una nueva rama y pasarse a ella (git checkout -b rama)
+2. git fetch upstream rama
+3. git merge upstream/rama (En caso de error hacer un commit)
+4. Mezclar rama con la master (desde la "master" -> git merge "rama")
+
+5. Borrar base de datos (Si es necesario)
+6. Migrar con php artisan migrate --seed (Desde la carpeta que contiene los archivos)
+En caso de error en el paso 6 volver a borrar las tablas y colocar
+php artisan config:cache
+php artisan clear-compiled
+composer dump-autoload
+
+Otros:
+* composer update
