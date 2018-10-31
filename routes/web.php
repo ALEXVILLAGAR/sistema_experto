@@ -35,6 +35,14 @@ route::get('/contacto',function(){
 	return view('ayuda');
 });
 
+route::get('/user',function(){
+	return view('usuario1');
+});
+
+route::get('/pronostico',function(){
+	return view('pronostico');
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

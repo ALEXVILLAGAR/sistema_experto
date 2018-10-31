@@ -29,3 +29,8 @@
 .flotar_izquierda{
 	float: initial;
 }
+
+.video{
+	height: 100px;
+	width: 400px;
+}

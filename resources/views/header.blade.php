@@ -16,6 +16,7 @@
     <script src="{{ asset('js/jquery.js') }}"></script>
     <script src="{{ asset('js/jquery-migrate-1.2.1.js') }}"></script>
     <script src="{{ asset('js/script.js') }}"></script>
+    <script src="{{ asset('js/encuesta.js') }}"></script>
 
 
 
@@ -30,6 +31,7 @@
     <link rel="stylesheet" href="{{ asset('css/camera.css') }}">
     <link rel="stylesheet" href="{{ asset('css/owl-carousel.css') }}">
     <link rel="stylesheet" href="{{ asset('css/mi_css.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/encuesta.css') }}">
 
 </head>
 
@@ -58,10 +60,14 @@
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto sf-menu">
                         <!-- Authentication Links -->
+
                         <li class="nav-item active"><a href="./">Inicio</a></li>
                         <li class="nav-item"> <i ></i><a href="{{ url('nosotros') }}">Nosotros</a>
                         <li class="nav-item"><a href="index-4.html">contacto</a>
-                </li>
+                       </li>
+                       
+                                  @yield('opcion')
+                        
                         @guest
                         <li class="nav-item"> <i ></i><a href="{{ route('login') }}">ingresar</a>
                 </li>
@@ -86,6 +92,7 @@
                                 </div>
                             </li>
                         @endguest
+
                     </ul>
                 </div>
             </div>
