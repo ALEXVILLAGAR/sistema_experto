@@ -1,38 +1,16 @@
-@extends('layouts.app')
+@extends('user.usuario')
+@extends('header')
+
+@section('opcion')
+<li class="nav-item"> <i ></i><a href="{{ url('pronostico') }}" class="text-white">pronostico</a>
+@endsection
 
 @section('content')
       <main>
-        <section class="camera_container">
-          <div id="camera" class="camera_wrap">
-            <div data-src=" images/page-1_slide01.jpg">
-              <div class="camera_caption fadeIn">
-                <div class="container">
-                  <div class="row">
-                    <div class="preffix_6 grid_6">con ayuda de la IA.</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div data-src="images/page-1_slide02.jpg">
-              <div class="camera_caption fadeIn">
-                <div class="container">
-                  <div class="row">
-                    <div class="preffix_6 grid_6">Te traemos una nueva herramienta</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div data-src="images/page-1_slide03.jpg">
-              <div class="camera_caption fadeIn">
-                <div class="container">
-                  <div class="row">
-                    <div class="preffix_6 grid_6">con la cual podemos hacer pronosticos mas acertados de enfermedades respiratorias</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+        <div class=" offset-md-1 ">
+  <iframe  src="https://www.youtube.com/embed/M_xZKImZ38o?rel=0&&volume=0" width="1124" height="400" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+        
         <section>
           <div class="container banner_wr">
             <ul class="banner">

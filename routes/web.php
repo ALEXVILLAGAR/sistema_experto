@@ -18,3 +18,31 @@ Route::get('/', function () {
 route::get('/prueba',function(){
 	echo "hola mundo";
 });
+
+route::get('/nosotros',function(){
+	return view('nosotros');
+});
+
+route::get('/algoritmo',function(){
+	return view('algoritmo');
+});
+
+route::get('/ayuda',function(){
+	return view('ayuda');
+});
+
+route::get('/contacto',function(){
+	return view('ayuda');
+});
+
+route::get('/user',function(){
+	return view('usuario1');
+});
+
+route::get('/pronostico',function(){
+	return view('pronostico');
+});
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

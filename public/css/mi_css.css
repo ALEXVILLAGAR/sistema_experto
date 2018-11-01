@@ -1,0 +1,36 @@
+.sombra{
+  border: .05 solid rgb(0, 129, 129);
+  -webkit-box-shadow: 1px 1px 24px -6px rgba(0,0,0,0.75);
+     -moz-box-shadow: 1px 1px 24px -6px rgba(0,0,0,0.75);
+     box-shadow: 1px 1px 24px -6px rgba(0,0,0,0.75);
+     background-color: rgba(200,200,200,.9);
+}
+
+.mi_border{
+	border-color: 2px solid rgba(0,100,200,.8);
+}
+
+.fondo_login{
+	background-image: url(../images/login_fondo.jpg);
+}
+
+.fondo_registrar{
+	background-image: url(../images/fondo_registrar.jpg);
+}
+
+.flotar_derecha{
+	float: right;
+}
+
+.flotar_izquierda{
+	float: left;
+}
+
+.flotar_izquierda{
+	float: initial;
+}
+
+.video{
+	height: 100px;
+	width: 400px;
+}
