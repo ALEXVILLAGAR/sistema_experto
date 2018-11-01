@@ -3,7 +3,7 @@
 
 @include('header')
 
-<body>
+<body style="margin: 0;">
 
      <main class="py-4">
             @yield('content')
