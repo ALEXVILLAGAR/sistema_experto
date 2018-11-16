@@ -62,3 +62,71 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .camera_overlayer,
 .fondo_login,
 .fondo_registrar {border-radius: 20px;}
+
+
+
+
+
+#contpronost h2, #contresult h2 {color: #2980b9;} 
+#contpronost p, #contresult p {font-size: 18px; font-weight: bold; text-align: center;}
+* + hr {margin-top: 10px;}
+h2 + p {margin-top: 5px;}
+hr {background: #2980b9; height: 2px;}
+
+.form-check label {
+  position: relative;
+  cursor: pointer;
+  margin: 3px;
+  color: #666;
+  font-size: 18px;}
+
+.label-text {font-weight: bold;}
+.label-text:hover {color: #2980b9;}
+
+input[type="checkbox"], input[type="radio"] {position: absolute; right: 9000px;}
+input[type="checkbox"] + .label-text:before {
+  content: "\f096";
+  display: inline-block;
+  width: 1em;
+  margin-right: 5px;
+  font-family: "FontAwesome";
+  font-size: 23px;
+  line-height: .8;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing:antialiased;}
+
+input[type="checkbox"]:checked + .label-text:before {content: "\f14a"; color: #2980b9; animation: effect 250ms ease-in;}
+input[type="checkbox"]:disabled + .label-text {color: #aaa;}
+input[type="checkbox"]:disabled + .label-text:before {content: "\f0c8";color: #ccc;}
+
+@keyframes effect {
+  0%{transform: scale(0);}
+  25%{transform: scale(1.3);}
+  75%{transform: scale(1.4);}
+  100%{transform: scale(1);}}
+
+#contpronost button {margin-left: 50%; transform: translateX(-50%); padding: 10px !important;}
+
+#contpronost .imgdiagnost{
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  right: 200px;
+  border-radius: 50%;
+  box-shadow: inset 0 0 15px black;}
+
+#contpronost form .imgdiagnost:nth-child(3) {top: 500px; background: url('../images/Diagnostico/Imagen1.jpg');}
+#contpronost form .imgdiagnost:nth-child(4) {top: 1000px; background: url('../images/Diagnostico/Imagen2.jpg');}
+#contpronost form .imgdiagnost:nth-child(5) {top: 1500px; background: url('../images/Diagnostico/Imagen3.jpg');}
+#contpronost form .imgdiagnost:nth-child(6) {top: 2000px; background: url('../images/Diagnostico/Imagen4.jpg');}
+#contpronost form .imgdiagnost:nth-child(n+3):nth-child(-n+6) {background-size: cover; background-position: center;}
+
+#contresult {padding: 40px;}
+#contresult h2 {text-align: center;}
+#contresult h4 {font-size: 18px; line-height: 1.4; margin-left: 35%;}
+
+/*left: 50%; transform: translateX(-50%);*/
