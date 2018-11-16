@@ -1,5 +1,5 @@
 body{ 
-    margin-top:40px; 
+    /*margin-top:40px; */
 }
 
 .stepwizard-step p {
@@ -54,3 +54,5 @@ body{
 .btn.active span.glyphicon {				
 	opacity: 1;				
 }
+
+#contpronost {padding: 40px;}

@@ -54,5 +54,11 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   box-shadow: 0 0 8px black;}
 
 .stuck_container {margin-top: 14px;}
-.sf-menu > li > a {padding: 10px 18px;}
+.sf-menu > li > a {padding: 10px 18px 6px 18px;}
 .card {margin: 40px;}
+
+#camera, .py-4 main,
+.camera_target, 
+.camera_overlayer,
+.fondo_login,
+.fondo_registrar {border-radius: 20px;}

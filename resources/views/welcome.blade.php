@@ -56,7 +56,7 @@
               <li>
                 <i class="fas "></i>
                 <div class="fa-phone-square"></div>
-                <h3>ontacto</h3>
+                <h3>Contacto</h3>
                 <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p><a href="#"></a>
               </li>
             </ul>

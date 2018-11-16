@@ -1,29 +1,23 @@
-
-
 <head>
     <meta charset="utf-8">
-
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <link href="https://fonts.googleapis.com/css?family=Comfortaa:300" rel="stylesheet">
-     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>{{ config('app.name', 'Diagnostic Expert') }}</title>
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     
-
-    <title>{{ config('app.name', 'Laravel') }}</title>
-
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" ></script>
     <script src="{{ asset('js/jquery.js') }}"></script>
     <script src="{{ asset('js/jquery-migrate-1.2.1.js') }}"></script>
     <script src="{{ asset('js/script.js') }}"></script>
     <script src="{{ asset('js/encuesta.js') }}"></script>
-
-
-
-    <!-- Fonts -->
+    
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:300" rel="stylesheet">
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -33,15 +27,14 @@
     <link rel="stylesheet" href="{{ asset('css/owl-carousel.css') }}">
     <link rel="stylesheet" href="{{ asset('css/mi_css.css') }}">
     <link rel="stylesheet" href="{{ asset('css/encuesta.css') }}">
+    {{-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script> --}}
 
 </head>
 
-<header id="header" class="">
+<header id="header">
     
   <div class="container">
-    <div class="brand">
-      <a href="/"><img src="{{asset('images/Logo.png')}}" width="300"></a>
-    </div>
+    <div class="brand"><a href="/"><img src="{{asset('images/Logo.png')}}" width="300"></a></div>
     <a href="callto:#" class="fa-phone">(036)-314-6789</a>
     <p>Contáctanos de una manera directa, durante las 24 horas del dia.</p>
   </div>
@@ -59,13 +52,13 @@
           <!-- Right Side Of Navbar -->
           <ul class="navbar-nav ml-auto sf-menu">
             <!-- Authentication Links -->
-            <li class="nav-item active"><a href="./">Inicio</a></li>
-            <li class="nav-item"> <i ></i><a href="{{ url('nosotros') }}">Nosotros</a>
-            <li class="nav-item"><a href="index-4.html">Contáctanos</a></li>           
+            <li class="nav-item op1"><a href="./">Inicio</a></li>
+            <li class="nav-item op2"> <i ></i><a href="{{ url('nosotros') }}">Nosotros</a>
+            <li class="nav-item op3"><a href="{{ url('contacto') }}"">Contáctanos</a></li>           
             @yield('opcion')
             @guest
-              <li class="nav-item"> <i ></i><a href="{{ route('login') }}">Ingresar</a></li>
-              <li class="nav-item"> <i ></i><a href="{{ route('register') }}">Registrarme</a></li>
+              <li class="nav-item op4"> <i ></i><a href="{{ route('login') }}">Ingresar</a></li>
+              <li class="nav-item op5"> <i ></i><a href="{{ route('register') }}">Registrarme</a></li>
               @else
                 <li class="nav-item dropdown">
                   <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>{{ Auth::user()->name }} <span class="caret"></span></a>
