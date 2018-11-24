@@ -111,6 +111,19 @@
                                 </div>
                             </div>
                             <div class="form-group row mb-0">
+                                <div class="col-md-11 offset-md-1">
+                                    <h4 class="text-center text-dark">
+                                        <strong>
+                                            nota:
+                                        </strong>
+                                        al confirmar tu registro estas aceptando nuestros
+                                        <a data-target="#exampleModal" data-toggle="modal" href="#">
+                                            terminos y condciones
+                                        </a>
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="form-group row mb-0">
                                 <div class="col-md-6 offset-md-5">
                                     <button class="btn btn-outline-dark" type="submit">
                                         {{ __('Confirmar') }}
@@ -123,5 +136,6 @@
             </div>
         </div>
     </div>
+    @include('modal_condiciones')
 </div>
 @endsection
