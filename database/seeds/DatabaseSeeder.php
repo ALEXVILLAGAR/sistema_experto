@@ -14,6 +14,7 @@ class DatabaseSeeder extends Seeder
         // $this->call(UsersTableSeeder::class);
       $this->call(SymptomSeed::class);
       $this->call(pivotSeed::class);
+      factory(App\User::class,5)->create();
 
     }
 }

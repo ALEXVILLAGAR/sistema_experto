@@ -2,7 +2,7 @@
 @extends('header')
 
 @section('opcion')
-<li class="nav-item"> <i ></i><a href="{{ url('pronostico') }}" class="text-white">pronostico</a>
+  <li class="nav-item"> <i ></i><a href="{{ url('pronostico') }}" class="text-white">pronostico</a>
 @endsection
 
 @section('content')

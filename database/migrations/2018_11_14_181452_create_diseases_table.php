@@ -17,6 +17,9 @@ class CreateDiseasesTable extends Migration
             $table->increments('id');
             $table->timestamps();
             $table->string('enfermedad');
+            $table->text('descripcion')->nullable();
+            $table->string('enlace')->nullable();
+
             // $table->string('sintomas');
 
         });

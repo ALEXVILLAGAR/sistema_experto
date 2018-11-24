@@ -14,7 +14,7 @@
                             Misión
                         </h2>
                         <p>
-                            Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                            Brindar un diagnóstico oportuno de enefermedades respiratorias a usuarios con diferentes padecimientos, contribuyendo de forma directa en el sector salud y en el tratamiento oportuno de enefermedades.
                         </p>
                     </img>
                 </div>
@@ -24,7 +24,7 @@
                             Visión
                         </h2>
                         <p>
-                            Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                            En 10 años, “Diagnostic Expert” será una plataforma de diagnóstico médico reconocida y adoptada en el ámbito local, enfocada en el diagnóstico oportuno de enfermedades respiratorias con una amplia variedad de socios y patrocinadores en el entorno médico, siendo retroalimentada constantemente por cada uno de sus usuarios e interesados.
                         </p>
                     </img>
                 </div>
@@ -34,7 +34,7 @@
                             Nuestro sistema
                         </h2>
                         <p>
-                            Nuestro sistema esta enfocado a diagnosticar enfermedades respiratorias a tiempo; Por medio de la valoriacion obtenida en nuestras encuentas podremos dar cual enfermedad puede estar padeciendo.
+                            Diagnostic Expert es una plataforma web de pronóstico temprano de enfermedades respiratorias basado en un sistema difuso que ofrece una base de datos completa y estructurada de síntomas y enfermedades asociadas a los mismos en un proceso de selección y clasificación eficiente.
                         </p>
                     </img>
                 </div>

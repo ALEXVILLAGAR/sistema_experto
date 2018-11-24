@@ -8,7 +8,7 @@
               <div class="camera_caption fadeIn">
                 <div class="container">
                   <div class="row">
-                    <div class="preffix_6 grid_6">con ayuda de la IA.</div>
+                    <div class="preffix_6 grid_6">Con ayuda de la Inteligencia Artificial</div>
                   </div>
                 </div>
               </div>
@@ -26,7 +26,7 @@
               <div class="camera_caption fadeIn">
                 <div class="container">
                   <div class="row">
-                    <div class="preffix_6 grid_6">con la cual podemos hacer pronosticos mas acertados de enfermedades respiratorias</div>
+                    <div class="preffix_6 grid_6">Con la cual podemos hacer pronósticos más acertados de enfermedades respiratorias</div>
                   </div>
                 </div>
               </div>
@@ -40,77 +40,31 @@
                 
                 <div class="fa-users"></div>
                 <h3>Nosotros</h3>
-                <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p><a href="{{ url('nosotros') }}"></a>
+                <p>Diagnostic Expert es una plataforma web de pronóstico temprano de enfermedades respiratorias basado en un sistema difuso. </p><a href="{{ url('nosotros') }}"></a>
+                {{-- Diagnostic Expert es una plataforma web de pronóstico temprano de enfermedades respiratorias basado en un sistema difuso que ofrece una base de datos completa y estructurada de síntomas y enfermedades asociadas a los mismos en un proceso de selección y clasificación eficiente. --}}
               </li>
               <li>
                 <div class="fa-lightbulb-o"></div>
-                <h3>Nuestro <br> Sistema</h3>
-                <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p><a href=" {{ url('algoritmo') }}"></a>
+                <h3>Nuestro Sistema</h3>
+                <p>La lógica difusa como herramienta de analisis de información entre lo verdadero y lo falso permite juzgar síntomas y generar un diagnóstico aproximado.</p><a href=" {{ url('algoritmo') }}"></a>
               </li>
               <li>
                 <div class="fa-question-circle"></div>
                <i class="fal "></i>
                 <h3>Ayuda</h3>
-                <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p><a href="{{ url('ayuda') }}"></a>
+                <p>Accede a nuestro sistema de ayuda y aprende a usar nuestra herramienta de diagnóstico</p><a href="{{ url('ayuda') }}"></a>
               </li>
               <li>
                 <i class="fas "></i>
                 <div class="fa-phone-square"></div>
                 <h3>Contacto</h3>
-                <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p><a href="#"></a>
+                <p>Si te queda alguna duda comunicate con nostros y con gusto atenderemos de manera oportuna todas tus dudas, solicitudes o sugerencias</p><a href="#"></a>
               </li>
             </ul>
           </div>
         </section>
         <section class="well ins1">
-          <div class="container hr">
-            <ul class="row product-list">
-              <li class="grid_6">
-                <div class="box wow fadeInRight">
-                  <div class="box_aside">
-                    <div class="icon fa-check"></div>
-                    <i class="fas fa-chart-line"></i>
-                  </div>
-                  <div class="box_cnt__no-flow">
-                    <h3><a href="#">Estadisticas</a></h3>
-                    <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolor.</p>
-                  </div>
-                </div>
-                <hr>
-                <div data-wow-delay="0.2s" class="box wow fadeInRight">
-                  <div class="box_aside">
-                    <div class="icon fa-ambulance"></div>
-                    <i class="fas fa-hospital"></i>
-                  </div>
-                  <div class="box_cnt__no-flow">
-                    <h3><a href="#">Hospitales Asociados</a></h3>
-                    <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolor.</p>
-                  </div>
-                </div>
-              </li>
-              <li class="grid_6">
-                <div data-wow-delay="0.3s" class="box wow fadeInRight">
-                  <div class="box_aside">
-                    <div class="icon fa-user-md"></div>
-                  </div>
-                  <div class="box_cnt__no-flow">
-                    <h3><a href="#">Nuestros medicos</a></h3>
-                    <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolor.</p>
-                  </div>
-                </div>
-                <hr>
-                <div data-wow-delay="0.4s" class="box wow fadeInRight">
-                  <div class="box_aside">
-                    <div class="icon fa-thumbs-up"></div>
-                  </div>
-                  <div class="box_cnt__no-flow">
-                    <h3><a href="#">testimonios</a></h3>
-                    <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolor.</p>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
+
         </section>
        
       </main>

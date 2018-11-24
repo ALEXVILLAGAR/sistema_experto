@@ -15,31 +15,17 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-route::get('/prueba',function(){
-	echo "hola mundo";
-});
+route::view('/nosotros','nosotros');
 
-route::get('/nosotros',function(){
-	return view('nosotros');
-});
+route::view('/algoritmo','algoritmo');
 
-route::get('/algoritmo',function(){
-	return view('algoritmo');
-});
+route::view('/ayuda','ayuda');
 
-route::get('/ayuda',function(){
-	return view('ayuda');
-});
+route::view('/contacto','ayuda');
 
-route::get('/contacto',function(){
-	return view('ayuda');
-});
+route::view('/user','usuario1');
 
-route::get('/user',function(){
-	return view('usuario1');
-});
-
-route::get('/pronostico','SymptomController@pronostico');
+route::get('/pronostico','SymptomController@pronostico')->middleware('auth');
 
 Auth::routes();
 
